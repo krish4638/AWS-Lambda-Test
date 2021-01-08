@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\SAM\\AWSServerlessAPI\\src\\AWSServerlessAPI\\AWSServerlessAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\SAM\\AWSServerlessAPI\\src\\AWSServerlessAPI\\AWSServerlessAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SAM\\AWSServerlessAPI\\src\\AWSServerlessAPI\\AWSServerlessAPI.csproj",
+        "projectName": "AWSServerlessAPI",
+        "projectPath": "D:\\SAM\\AWSServerlessAPI\\src\\AWSServerlessAPI\\AWSServerlessAPI.csproj",
+        "packagesPath": "C:\\Users\\sri\\.nuget\\packages\\",
+        "outputPath": "D:\\SAM\\AWSServerlessAPI\\src\\AWSServerlessAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\NuGet.Config",
+          "C:\\Users\\sri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dart-dev-test.acr.org/packages/nuget/": {},
+          "https://package-server.acr.org/repository/acr-connect-nuget-hosted/": {},
+          "https://package-server.acr.org/repository/triad-nuget-group/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Amazon.Lambda.AspNetCoreServer": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
